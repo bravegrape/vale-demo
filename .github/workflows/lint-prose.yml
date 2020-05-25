@@ -1,4 +1,4 @@
-name: Linting
+name: Linting your prose
 on: [push, pull_request]
 
 jobs:
