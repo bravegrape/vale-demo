@@ -12,8 +12,3 @@ jobs:
       uses: errata-ai/vale-action@v1.0.4
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      with:
-        styles: |
-          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-        config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
-        files: source
